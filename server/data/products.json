@@ -1,0 +1,82 @@
+[
+    {
+        "id": "01",
+        "name": "Apple 5 Pack",
+        "price": 0.69,
+        "category": "fruit",
+        "weight": 700,
+        "pic": "http://localhost:3000/api/product/img/01"
+    },
+    {
+        "id": "02",
+        "name": "Banana Loose",
+        "price": 0.16,
+        "category": "fruit",
+        "weight": 180,
+        "pic": "https://digitalcontent.api.tesco.com/v2/media/ghs/7b183684-c615-4468-a75e-a4230ad58285/9a5b2c81-989e-47d6-b662-7411de96ed71.jpeg?h=225&w=225"
+    },
+    {
+        "id": "03",
+        "name": "Carrot Loose",
+        "price": 0.08,
+        "category": "vegetable",
+        "weight": 80,
+        "pic": "https://digitalcontent.api.tesco.com/v2/media/ghs/47e5311e-2827-46ef-a97d-3b9a8d9aa8e9/snapshotimagehandler_1804754647.jpeg?h=540&w=540"
+    },
+    {
+        "id": "04",
+        "name": "Pork Belly Slices",
+        "price": 3.15,
+        "category": "meat",
+        "weight": 500,
+        "pic": "https://digitalcontent.api.tesco.com/v2/media/ghs/5d7c24de-307f-47f7-97a4-9e202485b6ee/b785d931-e484-4189-b804-7c342054690b.jpeg?h=225&w=225"
+    },
+    {
+        "id": "05",
+        "name": "Beef Mince 20%Fat",
+        "price": 2.19,
+        "category": "meat",
+        "weight": 500,
+        "pic": "https://digitalcontent.api.tesco.com/v2/media/ghs/8ddd3aef-8c8c-46e4-9eb1-be756713965f/bbf34fd9-4d4b-4f3e-a1a6-70ca55a47d4f.jpeg?h=540&w=540"
+    },
+    {
+        "id": "06",
+        "name": "Easy Peeler",
+        "price": 2.00,
+        "category": "fruit",
+        "weight": 600,
+        "pic": "https://digitalcontent.api.tesco.com/v2/media/ghs/3b0eaa57-7226-40ac-80f8-1192becd81bf/snapshotimagehandler_6803425.jpeg?h=225&w=225"
+    },
+    {
+        "id": "07",
+        "name": "Strawberries",
+        "price": 2.30,
+        "category": "fruit",
+        "weight": 230,
+        "pic": "https://digitalcontent.api.tesco.com/v2/media/ghs/051e483f-09c2-4d90-bec8-eec2faf84a48/46619ee2-511d-4a07-b9a5-4d6143352d9d.jpeg?h=225&w=225"
+    },
+    {
+        "id": "08",
+        "name": "Kiwi 6 Pack",
+        "price": 0.95,
+        "category": "fruit",
+        "weight": 400,
+        "pic": "https://digitalcontent.api.tesco.com/v2/media/ghs/8ade879e-b27b-4e75-a937-43c617d87e9c/e6d64cda-3964-4c86-8051-f80d98561587_643804450.jpeg?h=225&w=225"
+    },
+    {
+        "id": "09",
+        "name": "Pak Choi",
+        "price": 1.25,
+        "category": "vegetable",
+        "weight": 250,
+        "pic": "https://digitalcontent.api.tesco.com/v2/media/ghs/47d12257-201a-4e7c-aae5-bf5193478919/56d54195-0062-4588-b1f4-9a8166c1ed0b.jpeg?h=225&w=225"
+    },
+    {
+        "id": "10",
+        "name": "Garlic 4 Pack",
+        "price": 0.95,
+        "category": "vegetable",
+        "weight": 100,
+        "pic": "https://digitalcontent.api.tesco.com/v2/media/ghs/98ed5a8c-acba-4c78-aff5-abd66475fec4/0531c3a3-2866-47c3-86b4-721addcac86a_224026227.jpeg?h=225&w=225"
+    }
+]

@@ -1,0 +1,127 @@
+Authentication: This API does not require authentication.
+
+
+
+GET /alive
+
+Description: This endpoint is used to check if the API server is running and alive.
+
+Response:{
+"message": "I'm alive"
+}
+
+
+
+GET /products
+
+Description: This endpoint returns all products.
+
+Response:[ { "id": 1, "name": "Product 1", "description": "Description of Product 1", "price": 10.99, "image":
+"http://yourapi.com/product/img/1" }, { "id": 2, "name": "Product 2", "description": "Description of Product 2",
+"price": 19.99, "image": "http://yourapi.com/product/img/2" }, ...]
+
+
+
+GET /cart
+
+Description: This endpoint returns the contents of the user's shopping cart.
+
+Response:{
+"items": [
+{
+"id": 1,
+"name": "Product 1",
+"price": 10.99,
+"quantity": 2
+},
+{
+"id": 2,
+"name": "Product 2",
+"price": 19.99,
+"quantity": 1
+}
+],
+"total": 41.97
+}
+
+
+
+GET /delivery
+
+Description: This endpoint returns the available delivery options.
+
+Response:[ { "id": 1, "name": "Standard", "price": 4.99 }, { "id": 2, "name": "Express", "price": 9.99 }]
+
+
+
+GET /product/img/:id
+
+Description: This endpoint returns the image of a specific product.
+
+Parameters:
+
+id: The ID of the product.
+Response:
+
+The product image.
+DELETE /cart/items/:id
+
+Description: This endpoint removes an item from the shopping cart.
+
+Parameters:
+
+id: The ID of the item to remove.
+Response:{
+"message": "Item removed successfully"
+}
+
+
+
+POST /cart/items/addItems
+
+Description: This endpoint adds items to the shopping cart.
+
+Request body:{
+"items": [
+{
+"id": 1,
+"quantity": 2
+},
+{
+"id": 2,
+"quantity": 1
+}
+]
+}
+Response:{
+"message": "Items added successfully"
+}
+
+
+
+POST /cart/checkout
+
+Description: This endpoint is used to checkout the items in the shopping cart.
+
+Request body:{
+"delivery": 1
+}
+Response:{
+"message": "Checkout successful"
+}
+
+
+
+POST /cart/items/:id
+
+Description: This endpoint adds an item to the shopping cart.
+
+Parameters:
+
+id: The ID of the item to add.
+Request body:{
+"quantity": 1
+}
+Response:{
+"quantity": 1
+}

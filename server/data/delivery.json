@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "deliverOption": "FastGrocer",
+        "price": 1.99
+    },
+    {
+        "id": 2,
+        "deliverOption": "BulkGrocer",
+        "price": 2.99
+    },
+    {
+        "id": 3,
+        "deliverOption": "GoCollect",
+        "price": 0
+    }
+]
